@@ -59,6 +59,11 @@ See the Java files in this folder:
 - `ConstantTime.java`: Demonstrates O(1) complexity.
 - `LinearTime.java`: Demonstrates O(n) complexity.
 - `QuadraticTime.java`: Demonstrates O(n²) complexity.
+- `lecture_example/LectureExample1.java`: Lecture example showing F(n) = 2n + 1, O(n) complexity.
+- `lecture_example/LectureExample2.java`: Example with f(n) = 3n² + 2n + 1000*log(n) + 5000, O(n²) complexity.
+- `lecture_example/LectureExample3.java`: Example with f(n) = 3n³ + 2n² + 5n + 1, O(n³) complexity.
+- `lecture_example/ConditionalExample.java`: Example of if-else with max(O(n), O(1)) = O(n).
+- `lecture_example/NestedLoopExample.java`: Example of nested loops with O(n*m) complexity.
 
 Compile and run each, then modify the input sizes to see how time changes.
 
@@ -67,5 +72,10 @@ Compile and run each, then modify the input sizes to see how time changes.
 1. What happens to execution time in `LinearTime.java` when you double the input size?
 2. Why is `QuadraticTime.java` slower for large inputs?
 3. Can you think of a real-world example where O(n²) might be acceptable?
+4. In `lecture_example/LectureExample1.java`, count the operations and verify F(n) = 2n + 1. Why is it O(n)?
+5. In `lecture_example/LectureExample2.java`, identify the dominant term in f(n) = 3n² + 2n + 1000*log(n) + 5000 and explain why it's O(n²).
+6. In `lecture_example/LectureExample3.java`, what is the dominant term in f(n) = 3n³ + 2n² + 5n + 1 and why is it O(n³)?
+7. In `lecture_example/ConditionalExample.java`, why is the Big O max(O(n), O(1)) = O(n)?
+8. In `lecture_example/NestedLoopExample.java`, why is the complexity O(n*m) and how does it change if n == m?
 
 Submit your answers and observations in a comment on the lab discussion forum.
